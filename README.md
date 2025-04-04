@@ -261,9 +261,10 @@
 
 
 ---
+### My_dashboard выводит показания CPU и GPU hosts ShkutovIV-1 (192.168.1.10) и ShkutovIV-2 (192.168.1.5)
 
 
-
+![My_dashboard](https://github.com/Ivan-Shkutov/smon-homeworks-8-03/blob/main/img/4.1.png)
 
 
 ---
