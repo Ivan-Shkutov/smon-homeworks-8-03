@@ -211,7 +211,7 @@
 
       - /etc/zabbix/zabbix_agentd.conf на каждой виртуальной машине добавлены IP-адреса Zabbix сервера в настройки Server=
 
-<ins>Шаг 3: Сохраните все изменения</ins>
+<ins>Шаг 3: Сохранить все изменения</ins>
 
 <ins>Шаг 4: Привязка шаблонов</ins>
 
@@ -227,6 +227,19 @@
       
       - Выбрать хосты и убедитесь, что данные собираются корректно
 
+### <ins>SCREENSHORTS</ins>
+
+![monitoring_hosts](https://github.com/Ivan-Shkutov/smon-homeworks-8-03/blob/main/img/2.1.png)
+
+![configuration_hosts](https://github.com/Ivan-Shkutov/smon-homeworks-8-03/blob/main/img/2.2.png)
+
+![ShkutovIV-1](https://github.com/Ivan-Shkutov/smon-homeworks-8-03/blob/main/img/2.3.png)
+
+![ShkutovIV-2](https://github.com/Ivan-Shkutov/smon-homeworks-8-03/blob/main/img/2.4.png)
+
+![apply_and_check](https://github.com/Ivan-Shkutov/smon-homeworks-8-03/blob/main/img/2.5.png)
+
+![Latest Data](https://github.com/Ivan-Shkutov/smon-homeworks-8-03/blob/main/img/2.6.png)
 
 
 ---
