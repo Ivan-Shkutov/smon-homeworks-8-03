@@ -1,4 +1,4 @@
-# Домашнее задание к занятию «Система мониторинга Zabbix. Часть 2»
+   # Домашнее задание к занятию «Система мониторинга Zabbix. Часть 2»
 
 ## Шкутов Иван Владимирович
 
@@ -64,71 +64,71 @@
  1. Прикрепите в файл README.md скриншот страницы шаблона с названием «Задание 1»
     
 ---
-Шаг 1: Создание шаблона Templates
+<ins>Шаг 1: Создание шаблона Templates</ins>
 
-Configuration - Templates:
+   Configuration - Templates:
 
-Create template
+      - Create template
 
-Template - CPU_RAM_Monitoring
+      - Template - CPU_RAM_Monitoring
 
-Save
+      - Save
 
-Шаг 2: Создание Items
+<ins>Шаг 2: Создание Items</ins>
 
-Добавление элемента данных для мониторинга загрузки CPU:
+   Добавление элемента данных для мониторинга загрузки CPU:
 
-Items
+      - Items
 
-Create item
+      - Create item
 
-Заполнить поля:
+      - Заполнить поля:
 
-Name: CPU Usage (%)
+         - Name: CPU Usage (%)
 
-Type: Zabbix agent
+         - Type: Zabbix agent
 
-Key: system.cpu.load[percpu,avg1]
+         - Key: system.cpu.load[percpu,avg1]
 
-Type of information: Numeric (float)
+         - Type of information: Numeric (float)
 
-Units: %
+         - Units: %
 
-Добавление элемента данных для мониторинга загрузки RAM:
+   Добавление элемента данных для мониторинга загрузки RAM:
 
-Item
+      - Item
 
-Create item
+      - Create item
 
-Заполнить поля:
+      - Заполнить поля:
 
-Name: RAM Usage (%)
+         - Name: RAM Usage (%)
 
-Type: Zabbix agent
+         - Type: Zabbix agent
 
-Key: vm.memory.size[pused]
+         - Key: vm.memory.size[pused]
 
-Type of information: Numeric (float)
+         - Type of information: Numeric (float)
 
-Units: %
+         - Units: %
 
-Шаг 3: Применение шаблона к хостам
+<ins>Шаг 3: Применение шаблона к хостам</ins>
 
-Применить шаблон к хостам:
+   Применить шаблон к хостам:
 
-Configuration > Hosts.
+      - Configuration > Hosts.
 
-Выбрать хост и нажать Templates.
+      - Выбрать хост и нажать Templates.
 
-Select и найти свой шаблон Template CPU_RAM_Monitoring.
+      - Select и найти свой шаблон Template CPU_RAM_Monitoring.
 
-Выбрать нужный шаблон и нажать Add, затем Update или Save.
+      - Выбрать нужный шаблон и нажать Add, затем Update или Save.
 
-Шаг 4: Проверка работы шаблона
+<ins>Шаг 4: Проверка работы шаблона</ins>
 
-Перейти в раздел Monitoring > Latest data.
+   Перейти в раздел Monitoring > Latest data.
 
-Выбрать хост, к которому применили шаблон, и убедитесь, что новые элементы с данными по CPU и RAM отображаются корректно.
+   Выбрать хост, к которому применили шаблон, и проверить, что новые элементы с данными по CPU и RAM отображаются корректно.
 
 
 
