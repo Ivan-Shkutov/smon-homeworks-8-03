@@ -84,15 +84,15 @@
 
       - Заполнить поля:
 
-         - Name: CPU Usage (%)
+         Name: CPU Usage (%)
 
-         - Type: Zabbix agent
+         Type: Zabbix agent
 
-         - Key: system.cpu.load[percpu,avg1]
+         Key: system.cpu.load[percpu,avg1]
 
-         - Type of information: Numeric (float)
+         Type of information: Numeric (float)
 
-         - Units: %
+         Units: %
 
    Добавление элемента данных для мониторинга загрузки RAM:
 
@@ -102,15 +102,15 @@
 
       - Заполнить поля:
 
-         - Name: RAM Usage (%)
+         Name: RAM Usage (%)
 
-         - Type: Zabbix agent
+         Type: Zabbix agent
 
-         - Key: vm.memory.size[pused]
+         Key: vm.memory.size[pused]
 
-         - Type of information: Numeric (float)
+         Type of information: Numeric (float)
 
-         - Units: %
+         Units: %
 
 <ins>Шаг 3: Применение шаблона к хостам</ins>
 
