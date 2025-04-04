@@ -131,7 +131,7 @@
    Выбрать хост, к которому применили шаблон, и проверить, что новые элементы с данными по CPU и RAM отображаются корректно.
 
 
-
+![items](https://github.com/Ivan-Shkutov/smon-homeworks-8-03/blob/main/img/1.1.png)
 
 ---
 
